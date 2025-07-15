@@ -4,7 +4,7 @@ sleep 10
 
 # Check if the application is responding
 response=$(curl -s http://localhost:3000)
-if [[ "$response" == *"Hello from AWS CI/CD Pipeline"* ]]; then
+if [[ "$response" == *"¡Hola! Esta es una prueba del pipeline CI/CD en AWS"* ]]; then
     echo "Application is running successfully!"
     exit 0
 else
