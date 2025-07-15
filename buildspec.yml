@@ -11,10 +11,6 @@ phases:
     commands:
       - echo "Running tests..."
       - npm test
-  build:
-    commands:
-      - echo "Build phase..."
-      - npm run build
   post_build:
     commands:
       - echo "Build completed successfully!"
